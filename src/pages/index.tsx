@@ -5,7 +5,7 @@ import data from "../../data.json"
 
 export default function Home() {
   return (
-    <div className="flex justify-center items-center flex-col mx-auto mt-16 mb-40 px-56">
+    <div className="flex justify-center items-center flex-col mx-auto mt-16 mb-40 px-14">
       <Head>
         <title>Linktree | Paulo Moutinho</title>
         <meta name="description" content="Linktree Paulo Moutinho" />
