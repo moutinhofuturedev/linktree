@@ -4,20 +4,23 @@
     "links": [
         {
             "title": "Meu site pessoal",
-            "url": "https://paulomoutinho.vercel.app/",
+            "href": "https://paulomoutinho.vercel.app/",
             "image": "https://paulomoutinho.vercel.app/_next/image?url=%2Fassets%2Fpaulomoutinho.jpg&w=1080&q=75"
         },
         {
             "title": "Github",
-            "url": "https://github.com/moutinhofuturedev"
+            "href": "https://github.com/moutinhofuturedev",
+            "image": "https://avatars.githubusercontent.com/u/86997545?v=4"
         },
         {
             "title": "Twitter",
-            "url": "https://twitter.com/PauloMoutinho19"
+            "href": "https://twitter.com/PauloMoutinho19",
+            "image": "https://pbs.twimg.com/profile_images/1570140162234908678/_Bg9n0nf_400x400.jpg"
         },
         {
             "title": "LinkedIn",
-            "url": "https://www.linkedin.com/in/paulomoutinhovitor/"
+            "href": "https://www.linkedin.com/in/paulomoutinhovitor/",
+            "image": "https://media.licdn.com/dms/image/C4D03AQHuRLRz34NE8A/profile-displayphoto-shrink_400_400/0/1658416572725?e=1680134400&v=beta&t=oWBXSeHc90QnQGK42PNTn5eo5LFTkcDvZn5tTyMsR2U"
         }
     ]
 }
