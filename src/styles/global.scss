@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    @apply bg-gradient-to-t from-blue-700 via-blue-800 to-gray-900 text-gray-100 h-screen
+}
