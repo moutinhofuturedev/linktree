@@ -1,10 +1,5 @@
 import Image from 'next/image'
-
-interface LinkCardProps {
-    href: string;
-    title: string;
-    image?: string;
-}
+import { LinkCardProps } from '@/types/type';
 
 export function LinkCard({ href, title, image }: LinkCardProps) {
     return (
