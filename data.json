@@ -16,11 +16,16 @@
             "title": "Twitter",
             "href": "https://twitter.com/PauloMoutinho19",
             "image": "https://pbs.twimg.com/profile_images/1570140162234908678/_Bg9n0nf_400x400.jpg"
+        }
+    ],
+    "socials": [
+        {
+            "title": "Instagram",
+            "href": "https://www.instagram.com/paulo_mmoutinho/"
         },
         {
             "title": "LinkedIn",
-            "href": "https://www.linkedin.com/in/paulomoutinhovitor/",
-            "image": "https://media.licdn.com/dms/image/C4D03AQHuRLRz34NE8A/profile-displayphoto-shrink_400_400/0/1658416572725?e=1680134400&v=beta&t=oWBXSeHc90QnQGK42PNTn5eo5LFTkcDvZn5tTyMsR2U"
+            "href": "https://www.linkedin.com/in/paulomoutinhovitor/"
         }
     ]
 }
