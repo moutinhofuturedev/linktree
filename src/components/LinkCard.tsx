@@ -1,10 +1,12 @@
 import Image from 'next/image'
 import { LinkCardProps } from '@/types/type';
+import Link from 'next/link';
 
 export function LinkCard({ href, title, image }: LinkCardProps) {
     return (
-      <a
+      <Link
         href={href}
+        passHref
         target="_blank"
         className="flex 
         w-80 
@@ -34,6 +36,6 @@ export function LinkCard({ href, title, image }: LinkCardProps) {
             {title}
           </h2>
         </div>
-      </a>
+      </Link>
     );
 }
