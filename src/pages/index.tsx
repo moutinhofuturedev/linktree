@@ -22,7 +22,8 @@ export default function Home() {
         width="100"
         height="100"
       />
-      <h1 className="font-bold mt-4 mb-8 text-xl">{data.name}</h1>
+      <h1 className="font-bold mt-4 text-xl">{data.name}</h1>
+      <p className="mb-8 text-sm">{data.jobTitle}</p>
       {data.links.map((link, index) => (
         <LinkCard key={index} {...link}/>
       ))}
@@ -48,6 +49,7 @@ export default function Home() {
           }
         })}
       </div>
+      <p className="mt-32 text-sm">{data.footer}</p>
     </div>
   );
 }
