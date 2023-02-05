@@ -1,5 +1,6 @@
 {
     "name": "Paulo Moutinho",
+    "jobTitle": "Software Engineer | Frontend",
     "avatar": "https://avatars.githubusercontent.com/u/86997545?v=4",
     "links": [
         {
@@ -27,5 +28,6 @@
             "title": "LinkedIn",
             "href": "https://www.linkedin.com/in/paulomoutinhovitor/"
         }
-    ]
+    ],
+    "footer": "Desenvolvido no 🇧🇷 por Paulo Moutinho, 2023."
 }
