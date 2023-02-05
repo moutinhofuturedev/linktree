@@ -49,7 +49,9 @@ export default function Home() {
           }
         })}
       </div>
-      <p className="mt-32 text-sm">{data.footer}</p>
+      <footer className="mx-auto">
+        <p className="mt-32 text-xs">{data.footer}</p>
+      </footer>
     </div>
   );
 }
