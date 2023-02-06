@@ -14,6 +14,8 @@ export default function Home() {
         <meta name="description" content="Linktree Paulo Moutinho" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="canonical" href="https://linktree-moutinho.vercel.app/"/>
+        <link rel="alternate" media="only screen and (max-width: 640px)" href="https://linktree-moutinho.vercel.app/"/>
       </Head>
       <Image
         className="rounded-full"
