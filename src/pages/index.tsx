@@ -10,6 +10,7 @@ export default function Home() {
     <div className="flex justify-center items-center flex-col mx-auto mt-16 mb-40 px-14">
       <Head>
         <title>Linktree | Paulo Moutinho</title>
+        <meta name="google-site-verification" content="4on3Ax2OR-BtXre94Wg3N7yZ0OoXYFPRCxle-bWVeAo" />
         <meta name="description" content="Linktree Paulo Moutinho" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
