@@ -34,19 +34,19 @@ export default function Home() {
         {data.socials.map((social, index) => {
           if (social.title.includes("Instagram")) {
             return (
-              <Link href={social.href} passHref target="_blank" key={index} 
+              <Link href={social.href} passHref target="_blank" key={index}  title="Instagram"
                 className="hover:scale-105 transition-all"
               >
-                <InstagramIcon />
+                <InstagramIcon key="Instagram"/>
               </Link>
             )
           }
           if (social.title.includes("LinkedIn")) {
             return (
-              <Link href={social.href} passHref target="_blank" key={index}
+              <Link href={social.href} passHref target="_blank" key={index} title="LinkedIn"
                 className="hover:scale-105 transition-all"
               >
-                <LinkedinIcon />
+                <LinkedinIcon key="LinkedIn"/>
               </Link>
             )
           }
