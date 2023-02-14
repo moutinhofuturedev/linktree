@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link';
 import { LinkCard } from '@/components/LinkCard';
 import data from "../../data.json"
-import { InstagramIcon, LinkedinIcon } from '@/components/SocialIcons';
+import { InstagramIcon, TwitterIcon } from '@/components/SocialIcons';
 
 export default function Home() {
   return (
@@ -41,12 +41,12 @@ export default function Home() {
               </Link>
             )
           }
-          if (social.title.includes("LinkedIn")) {
+          if (social.title.includes("Twitter")) {
             return (
-              <Link href={social.href} passHref target="_blank" key={index} title="LinkedIn"
+              <Link href={social.href} passHref target="_blank" key={index} title="Twitter"
                 className="hover:scale-105 transition-all"
               >
-                <LinkedinIcon key="LinkedIn"/>
+                <TwitterIcon key="Twitter"/>
               </Link>
             )
           }
