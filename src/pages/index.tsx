@@ -2,8 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link';
 import { LinkCard } from '@/components/LinkCard';
-import data from "../../data.json"
 import { InstagramIcon, TwitterIcon } from '@/components/SocialIcons';
+import data from "../../data.json"
 
 export default function Home() {
   return (
@@ -27,14 +27,14 @@ export default function Home() {
       />
       <h1 className="font-bold mt-4 text-xl">{data.name}</h1>
       <p className="mb-8 text-sm">{data.jobTitle}</p>
-      {data.links.map((link, index) => (
-        <LinkCard key={index} {...link}/>
+      {data.links.map((link) => (
+        <LinkCard key={link.title} {...link}/>
       ))}
       <div className="flex ite gap-4 mt-6">
-        {data.socials.map((social, index) => {
+        {data.socials.map((social) => {
           if (social.title.includes("Instagram")) {
             return (
-              <Link href={social.href} passHref target="_blank" key={index}  title="Instagram"
+              <Link href={social.href} passHref target="_blank" key={social.title}  title="Instagram"
                 className="hover:scale-105 transition-all"
               >
                 <InstagramIcon key="Instagram"/>
@@ -43,7 +43,7 @@ export default function Home() {
           }
           if (social.title.includes("Twitter")) {
             return (
-              <Link href={social.href} passHref target="_blank" key={index} title="Twitter"
+              <Link href={social.href} passHref target="_blank" key={social.title} title="Twitter"
                 className="hover:scale-105 transition-all"
               >
                 <TwitterIcon key="Twitter"/>
