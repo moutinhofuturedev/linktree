@@ -30,6 +30,7 @@ export function LinkCard({ href, title, image }: LinkCardProps) {
               alt={title}
               width="40"
               height="40"
+              priority={true}
             />
           )}
           <h2 className="font-semibold w-full text-center text-gray-700">
