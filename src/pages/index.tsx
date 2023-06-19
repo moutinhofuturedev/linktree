@@ -1,11 +1,20 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from 'next/head';
+import Image from 'next/image';
 import Link from 'next/link';
 import { LinkCard } from '@/components/LinkCard';
 import { InstagramIcon, TwitterIcon } from '@/components/SocialIcons';
-import data from "../../data.json"
+import { get } from '@vercel/edge-config';
+import { OneProps } from '@/types/type';
 
-export default function Home() {
+import type { GetServerSideProps } from 'next'
+ 
+export const getServerSideProps: GetServerSideProps = async () => {
+  const data = await get("linktree");
+  return { props: { data } }
+}
+
+export default function Home({ data }: OneProps) {
+
   return (
     <div className="flex justify-center items-center flex-col mx-auto mt-16 mb-40 px-14">
       <Head>
